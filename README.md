@@ -1,4 +1,32 @@
-# A statically generated blog example using Next.js and Markdown
+# A CYPRESS automation project over statically generated blog example using Next.js and Markdown 
+
+# Automation project
+
+This is mini automation project using cypress tool over Next.js application.
+
+**Setting up the automation project**
+ 
+Install and run node.js.<br/>
+Install and run npm.<br/>
+Run npx web pack dev server.<br/>
+
+On successful setting up the project there are two methods to run the cypress automation project.<br/>
+
+**Method 1 (headless)**<br/>
+write in terminal of IDE:<br/>
+             npx cypress run.<br/>
+             Test will be execute and status will be shown in terminal.<br/>
+             Graphical **REPORT** will be created with current date&time stamp under Reports folder.<br/>
+
+**Method 2**<br/>
+
+write in terminal of IDE:<br/>
+             npx cypress open.<br/>
+             Cypress GUI will open, click on run all test on TopRight cornerRun of this window.<br/>
+
+All major scenarios of the webpage are covered over reliable selectors i.e **data-cy** with every feasible assertions, validations and checks.
+
+# **Next.js Application**
 
 This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
 
