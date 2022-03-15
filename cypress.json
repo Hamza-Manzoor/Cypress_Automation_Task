@@ -1,0 +1,16 @@
+{
+    "baseUrl": "http://localhost:3000",
+    "reporter": "cypress-mochawesome-reporter",
+    
+      "reporterOptions": {
+        "charts": true,
+        "html": true,
+        "timestamp": "mmddyyyy_HHMMss",
+        "overwrite": false
+      }
+     
+
+
+
+
+  }
